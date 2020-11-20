@@ -24,7 +24,7 @@ app.get("/", function(request, response) {
 //ENDPOINTS
 //   /quotes            - Should return all quotes (json)
 app.get("/quotes", (request, response) => {
-        response.json(quotes);
+        response.json(quotesId);
     })
     //   /quotes/random     - Should return ONE quote (json)
 app.get("/quotes/random", (request, response) => {
